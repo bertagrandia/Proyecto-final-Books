@@ -33,6 +33,7 @@ services:
     networks:
       - dbnet
 
+
 volumes:
   pgdata: # Volumen nombrado para persistir Postgres
 

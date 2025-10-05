@@ -1,5 +1,6 @@
 COPY books.book FROM '/backups/books.csv' DELIMITER ';' CSV HEADER ESCAPE '\' QUOTE '"';
 
+
 COPY books.users 
 FROM '/backups/users.csv' 
 DELIMITER ';' 

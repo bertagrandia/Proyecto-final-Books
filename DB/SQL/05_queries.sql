@@ -6,6 +6,7 @@ SELECT
 FROM books.book
 WHERE Year_Of_Publication = 2005;
 
+
 -- 2. Número de valoraciones por libro
 SELECT
     ISBN,

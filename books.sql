@@ -25,6 +25,9 @@ CREATE TABLE books.book(
     Image_URL_L TEXT
 );
 
+
+
+
 CREATE TABLE books.users(
     User_ID INT PRIMARY KEY,
     Location VARCHAR(255),

@@ -1,6 +1,7 @@
 DROP SCHEMA IF EXISTS books CASCADE;
 CREATE SCHEMA IF NOT EXISTS books;
 
+
 CREATE DOMAIN books.dom_ISBN AS TEXT
     CHECK (length(trim(BOTH FROM value)) > 0 AND length(trim(BOTH FROM value)) <= 20);
 	  
